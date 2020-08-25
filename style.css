@@ -1,0 +1,267 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.logo {
+    margin-bottom: 1em;
+}
+
+@keyframes rect_1 {
+    from {
+        /* y: 90.5; */
+    }
+    13% {
+        y: 25;
+        transform: rotate(25deg);
+        transform-origin: 20% center;
+    }
+    18% {
+        y: 25;
+        transform: rotate(25deg);
+        transform-origin: 20% center;
+    }
+    21% {
+        transform: rotate(0deg);
+        y: 90.5;
+    }
+}
+
+@keyframes rect_2 {
+    from {
+        /* y: 130; */
+    }
+    13% {
+        y: 80;
+        transform: rotate(20deg);
+        transform-origin: 25% center;
+    }
+    18% {
+        y: 80;
+        transform: rotate(20deg);
+        transform-origin: 25% center;
+    }
+    21% {
+        transform: rotate(0deg);
+        y: 130;
+    }
+}
+
+@keyframes rect_3 {
+    from {
+        y: 170;
+    }
+    13% {
+        y: 120;
+        transform: rotate(15deg);
+        transform-origin: 25% center;
+    }
+    18% {
+        y: 120;
+        transform: rotate(15deg);
+        transform-origin: 25% center;
+    }
+    21% {
+        transform: rotate(0deg);
+        y: 170;
+    }
+}
+
+@keyframes rect_4 {
+    from {
+        y: 210;
+    }
+    13% {
+        y: 165;
+        transform: rotate(9deg);
+        transform-origin: 30% center;
+    }
+    18% {
+        y: 165;
+        transform: rotate(9deg);
+        transform-origin: 30% center;
+    }
+    21% {
+        transform: rotate(0deg);
+        y: 210;
+    }
+}
+
+@keyframes rect_5 {
+    from {
+        y: 250;
+    }
+    13% {
+        y: 205;
+        transform: rotate(5.5deg);
+        transform-origin: 40% center;
+    }
+    18% {
+        y: 205;
+        transform: rotate(5.5deg);
+        transform-origin: 40% center;
+    }
+    21% {
+        transform: rotate(0deg);
+        y: 250;
+    }
+}
+
+@keyframes box-side {
+    from {}
+    21% {
+        y: 129.05;
+    }
+    23% {
+        y: 135;
+    }
+    25% {
+        y: 129.05;
+    }
+}
+
+@keyframes box-bottom {
+    from {}
+    21% {
+        y: 294.04999;
+    }
+    23% {
+        y: 300.04999;
+    }
+    25% {
+        y: 294.04999;
+    }
+}
+
+@keyframes ce {
+    from {
+        fill: transparent;
+    }
+    21% {
+        fill: transparent;
+    }
+    27% {
+        fill: #99222e;
+    }
+    32% {
+        fill: #262626;
+    }
+    92% {
+        fill: #262626;
+    }
+    100% {
+        fill: transparent;
+    }
+}
+
+@keyframes stack {
+    from {
+        fill: transparent;
+    }
+    23% {
+        fill: transparent;
+    }
+    29% {
+        fill: #f47318;
+    }
+    32% {
+        fill: #262626;
+    }
+    92% {
+        fill: #262626;
+    }
+    100% {
+        fill: transparent;
+    }
+}
+
+@keyframes exchange {
+    from {
+        fill: transparent;
+    }
+    25% {
+        fill: transparent;
+    }
+    31% {
+        fill: #064c64;
+    }
+    32% {
+        fill: #262626;
+    }
+    92% {
+        fill: #262626;
+    }
+    100% {
+        fill: transparent;
+    }
+}
+
+#rect_1 {
+    animation-duration: 6s;
+    animation-name: rect_1;
+    animation-iteration-count: infinite;
+}
+
+#rect_2 {
+    animation-duration: 6s;
+    animation-name: rect_2;
+    animation-iteration-count: infinite;
+}
+
+#rect_3 {
+    animation-duration: 6s;
+    animation-name: rect_3;
+    animation-iteration-count: infinite;
+}
+
+#rect_4 {
+    animation-duration: 6s;
+    animation-name: rect_4;
+    animation-iteration-count: infinite;
+}
+
+#rect_5 {
+    animation-duration: 6s;
+    animation-name: rect_5;
+    animation-iteration-count: infinite;
+}
+
+.box_side {
+    animation-duration: 6s;
+    animation-name: box-side;
+    animation-iteration-count: infinite;
+}
+
+.box_bottom {
+    animation-duration: 6s;
+    animation-name: box-bottom;
+    animation-iteration-count: infinite;
+}
+
+#ce {
+    animation-duration: 6s;
+    animation-name: ce;
+    animation-iteration-count: infinite;
+}
+
+#stack {
+    animation-duration: 6s;
+    animation-name: stack;
+    animation-iteration-count: infinite;
+}
+
+#exchange {
+    animation-duration: 6s;
+    animation-name: exchange;
+    animation-iteration-count: infinite;
+}
